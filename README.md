@@ -45,5 +45,5 @@ streamlit run main.py
 ### Notes:
 
 - Ensure that you have the necessary  credentials for accessing the Google Gemini API services used in the application.
-
+- Currently, only ';' separated CSVs are supported
 
