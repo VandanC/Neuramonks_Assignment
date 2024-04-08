@@ -1,6 +1,7 @@
 # Neuramonks_Assignment
 
 This repository contains a Streamlit application for a question-answering system integrated with various data sources such as PDF and CSV files. The application allows users to upload their files, ask questions, and receive answers based on the content of the uploaded documents.
+#### Live Demo : https://4170-2409-40c1-4a-33a0-e840-d553-61f7-93de.ngrok-free.app/
 
 ### Features:
 
