@@ -48,3 +48,23 @@ streamlit run main.py
 - Ensure that you have the necessary  credentials for accessing the Google Gemini API services used in the application.
 - Currently, only ';' separated CSVs are supported
 
+
+## Hosting the Application using ngrok
+
+ngrok is a tool that allows you to expose your local development server to the internet. 
+Below are instructions for installing ngrok on windows operating systems and how to use it to host your local port.
+Follow the steps after 
+
+- Step 1: Download zip from [ngrok website](https://ngrok.com/download).
+- Step 2: Add authtoken
+    ```commandline
+    ngrok config add-authtoken <token>
+    ```
+- Step 3: Open the terminal in the file path where the zip file was extracted, and start the tunnel
+    ```commandline
+    .\ngrok.exe http <port>
+    ```
+  * Streamlit usually uses 8501 port number
+
+_To install and use ngrok on other operating systems please refer [ngrok website](https://ngrok.com/download)._
+
